@@ -1,0 +1,205 @@
+
+/*
+* {
+box-sizing: border-box;
+}
+
+:root {
+  --primary: #030202c5;
+  --secondary: #8207a1f7;
+  --tertiary: rgb(211,56,144);
+  --white:rgb(255, 255, 255);
+}
+
+body {
+  background: #edededfe;
+  color: var(var(--secondary)); 
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 85%;
+}
+
+#view-high-scores:hover {
+  cursor: pointer;
+  color: var(--tertiary)
+}
+
+.timer {
+font-size: 2.0rem;
+color:var(--primary);
+display:inline; 
+text-align: right;
+padding-right: 20px;
+}
+
+/*------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+
+  border: 1px solid rgb(243, 182, 182);
+
+/*global default font*/
+  font-family: monospace;
+  color: white
+}
+
+body {
+  background-color: #ebe8e8;
+  overflow: hidden;
+}
+
+header {
+  margin: 12px;
+  line-height: 4px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+button {
+  outline: none;
+background-color: black;
+font-size: 1.3em;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h1, h2 {
+  color: rgb(248, 248, 163);
+}
+
+/*--------------------*/
+/*Main Quiz Box Styles*/
+/*--------------------*/
+main {
+  display: flex;
+  flex-wrap: 24px;
+  justify-content: center;
+  border-color: darkcyan;
+  border-style: dashed;
+  background-color: silver;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+/*Ordered List*/
+ol {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  justify-content: center;
+  border-color: darkcyan;
+  border-style: dashed;
+  background-color: silver;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 20px;
+  padding: 0px 251px 0px;
+}
+
+/*Answer Bubble Styles*/
+section {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0px 100px;
+}
+
+/*Outer-Container Section*
+.outer-container{
+  padding: 10px;
+  Height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+/*Top-Bar Container*
+.top-bar p {
+float: right;
+}
+
+/*Inner-Container Section*
+.inner-container {
+  background: rgba(0, 0, 0, 0.5);
+  background-color: black;
+  height: 100%;
+  width: 50%;
+  margin:0 auto;
+}
+
+/*Header/Quiz Intro Section*/
+
+
+/*Main Quiz Content*/
+
+
+/*Inner-Container Section*/
+
+/*Start Button*/
+header button {
+  position: relative;
+  background: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px;
+}
+
+/*Answer*/
+#answer0, #answer1, #answer2, #answer3 {
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+/*----------------------*/
+
+
+
+.questions{
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  margin: auto;
+}
+
+#high-score{
+  text-align:left;
+}
+

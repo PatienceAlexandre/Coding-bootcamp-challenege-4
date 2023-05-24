@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="scores"><a href="highscores.html">view highscores</a> </div>
+  <div class="timer">time: <span id="time">0</span></div>
+  <div class="wrapper">
+    <div id="startscreen" class="start">
+      <h1>Coding Quiz Challenge</h1>
+      <p>Instructions</p>
+      <button id="start">Start Quiz</button>
+    </div>
+    <div id="questions" class="hide">
+      <h2 id="questiontitle"></h2>
+      <div id="choices" class="choices">
+        <button id="choice-0" class="answer-btn"></button>
+        <button id="choice-1" class="answer-btn"></button>
+        <button id="choice-2" class="answer-btn"></button>
+        <button id="choice-3" class="answer-btn"></button>
+      </div>
+    </div>
+    <div id="endscreen" class="hide">
+      <h2>Quiz Complete</h2>
+      <p>Your Final Score Is <span id="finalscore"></span></p>
+      <p>Enter initials: <input type="text" id="initials"><button id="submit">Submit</button></p>
+    </div>
+    <div id="feedback" class="feedback hide"></div>
+  </div>
+  <script src="./js/questions.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
